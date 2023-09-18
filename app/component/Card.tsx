@@ -1,9 +1,9 @@
 "use client";
 
-import Image from "next/image";
+import Image, { StaticImageData } from "next/image";
 
 interface CardProps {
-  iconLink: string;
+  iconLink: string | StaticImageData;
   number: string;
   header: string;
   paragraph: string;
